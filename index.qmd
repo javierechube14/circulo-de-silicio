@@ -1,0 +1,229 @@
+# Introducción {.unnumbered}
+
+![Portada de El Círculo de Silicio](cover.png){width=320px}
+
+## Nota de autoría y método
+
+Este libro trata sobre los avances de la tecnología, y es coherente que se haya escrito con
+ellos. El texto ha sido redactado por una inteligencia artificial (Claude) bajo la dirección
+de una persona. El autor ha concebido el proyecto, elegido los temas, definido la
+estructura y el hilo conductor, y ha decidido qué se cuenta, en qué orden y con qué
+intención. La IA ha puesto la redacción y la síntesis de información.
+
+No lo escondemos porque forma parte del argumento: una obra sobre cómo la tecnología
+se vuelve invisible no debería ocultar la tecnología que la hizo posible.
+
+Tres decisiones de método conviene conocer:
+
+   1. Escritura cualitativa. El libro prioriza las ideas, las analogías y la lógica de cada
+      tecnología sobre las cifras. Cuando un número es imprescindible, se da como orden de
+      magnitud, no como dato exacto, porque las cifras de este campo envejecen en meses.
+   2. Metáforas declaradas. Las imágenes que sostienen el libro, como el "círculo", son
+      formas de mirar, no leyes de la historia. El texto las señalará como tales.
+   3. Honestidad sobre la incertidumbre. La IA que redacta puede cometer errores de
+      detalle. Donde el futuro sea incierto (la computación cuántica, sobre todo), el libro lo
+      dirá, en lugar de vender promesas como hechos.
+      Fuentes y fechas. Los datos y los hechos recientes están fechados a finales de 2026 y
+      se contrastaron con fuentes públicas: artículos científicos, informes de instituciones y
+        prensa especializada. Al final del libro se recogen las referencias principales. Aun así,
+        en un campo que cambia cada pocos meses, cualquier cifra reciente debe leerse como
+        una fotografía de un momento y no como un dato definitivo.
+
+Origen del proyecto. Este libro nació de una conversación larga con un asistente de
+inteligencia artificial, y su primer esquema tenía más de asociación entre temas atractivos
+que de argumento. La versión que tienes delante reconstruye ese esquema alrededor de
+tres ideas que atraviesan todos los capítulos (el cuerpo de la información, la escala y el
+error), añade los capítulos que faltaban para sostenerlas y somete las afirmaciones a
+contraste con fuentes. La imagen del círculo que da título al libro se conserva, pero como
+metáfora declarada y no como tesis.
+
+## Cómo leer este libro
+
+Este libro no necesita conocimientos previos. No hay fórmulas ni código, y los términos
+técnicos se explican la primera vez que aparecen (y se recogen en el glosario final). Se
+puede leer de principio a fin, pero cada capítulo se sostiene por sí solo: quien tenga
+
+curiosidad por los chips puede saltar al segundo, quien prefiera la inteligencia artificial, al
+tercero, y quien venga de las ciencias sociales puede empezar por el cuarto o el sexto.
+
+El libro habla de cosas muy distintas, entre ellas células, microchips, algoritmos y átomos
+enfriados, y las une con un hilo de tres ideas que reaparecen en cada capítulo: que la
+información necesita un cuerpo material, que importa a qué escala se controla ese cuerpo
+y que toda información está amenazada por el error. La introducción las presenta, y la
+conclusión vuelve sobre ellas.
+
+Hay además una advertencia de lectura. El título habla de un círculo que va de la vida a la
+máquina y vuelve a la vida. Es una imagen útil, pero es una metáfora, no una teoría: la
+naturaleza no "quería" llegar a los ordenadores, y la tecnología no es el destino de la
+evolución. Usaremos el círculo como una linterna para ver conexiones, y al final se
+discutirán sus límites.
+
+Una última indicación sobre las referencias. En el texto aparecen citas con el formato
+autor-año, por ejemplo (Shannon, 1948). Cada capítulo termina con una lista de lecturas y
+con las referencias que ha usado. Las referencias que sostienen datos concretos se
+contrastaron con fuentes públicas a finales de 2026; en un campo que cambia cada pocos
+meses, conviene tratar cualquier cifra reciente como una fotografía de un momento.
+
+
+Introducción. La información necesita un cuerpo
+Hay un gesto que repetimos decenas de veces al día sin pensar en él: sacamos el teléfono,
+deslizamos el dedo y esperamos que aparezca algo. Una foto, un mensaje, una respuesta,
+un mapa. Aparece al instante, sin ruido, sin peso, sin que veamos de dónde viene. Tenemos
+una palabra para ese "de dónde": la nube. Y es una palabra casi perfecta, porque describe
+lo contrario de lo que nombra.
+
+Una nube es ligera, lejana, etérea. Lo que hay detrás de la "nube" son edificios enormes
+llenos de máquinas que consumen electricidad y necesitan refrigeración constante,
+conectados por cables que cruzan los océanos por el fondo del mar. Son metales extraídos
+de minas, fábricas de una complejidad casi increíble y personas que trabajan, muchas
+veces sin que sepamos que existen. La tecnología digital es una de las construcciones
+más materiales que ha levantado la humanidad. Lo que ocurre es que está hecha para no
+parecerlo.
+
+
+
+## Qué es la información y por qué necesita un cuerpo
+
+La palabra clave de este libro es información, y conviene usarla con precisión. En el
+sentido que le dio el ingeniero Claude Shannon en 1948, información es aquello que
+permite distinguir entre varias posibilidades y que puede conservarse y transmitirse
+(Shannon, 1948). Un interruptor encendido o apagado, una base química de una cadena de
+
+ADN (A, C, G o T), un pulso de luz que viaja por una fibra o el estado de un átomo enfriado
+casi hasta el cero absoluto tienen algo en común: son diferencias que se pueden leer,
+copiar y guardar. Eso es lo que llamamos información, y no depende de que signifique algo
+para alguien.
+
+La información no es materia, pero nunca existe sin ella. Para guardarla hace falta un
+soporte físico, y para manipularla hace falta energía. El físico Rolf Landauer lo resumió en
+una fórmula que se ha hecho célebre: la información es física (Landauer, 1991). Una frase
+puede escribirse con tinta, dictarse en voz alta o guardarse como cargas eléctricas en un
+chip, y sigue siendo la misma frase. Pero no puede existir sin alguno de esos cuerpos, y el
+cuerpo concreto condiciona lo que cuesta copiarla, cuánto dura y quién puede acceder a
+ella.
+
+De esa idea parte este libro. Lo que solemos llamar digital, virtual o inmaterial es
+información con cuerpo, y ese cuerpo, con sus materiales, su energía, su tamaño, sus fallos
+y sus dueños, es justo lo que casi nunca vemos.
+
+
+
+## Tres hilos: el cuerpo, la escala y el error
+
+El libro recorre cinco territorios que a primera vista tienen poco que ver: la biología, los
+ordenadores, la inteligencia artificial, la física cuántica y la sociedad. Lo que los une son
+tres ideas que reaparecen una y otra vez.
+
+La primera es el cuerpo. La información de la vida está escrita en una molécula, el ADN,
+que ocupa un lugar físico en cada célula y se copia con ayuda de maquinaria química. La
+información de un ordenador vive en transistores fabricados con silicio, en centros de
+datos y en cables submarinos. Y la información de un ordenador cuántico vive en circuitos
+o átomos tan delicados que exigen un frío extremo o un vacío casi perfecto. En cada
+capítulo se verá qué materia, qué energía y qué trabajo hay detrás de lo que parece pura
+abstracción.
+
+La segunda es la escala. Casi todo lo que hace posible el mundo digital sucede en
+dimensiones que no podemos ver. El físico Richard Feynman lo anticipó en una
+conferencia de 1959, "Hay mucho espacio al fondo", donde propuso que se podía
+manipular la materia átomo a átomo (Feynman, 1960). Desde entonces, cada salto hacia lo
+pequeño ha cambiado qué se puede hacer: la célula y el gen en biología, el transistor en
+electrónica, el átomo y el cúbit en la computación cuántica. Y cada salto ha cambiado
+también quién puede hacerlo, porque cuanto más pequeño es lo que se controla, más
+caras y más escasas son las herramientas para hacerlo.
+
+La tercera es el error, y es quizá la más sorprendente. Toda información amenazada por el
+desgaste, el ruido o la copia imperfecta necesita defenderse. La vida lo hace de una
+manera paradójica: copia su ADN con una fidelidad asombrosa, pero no perfecta, y de
+esos errores raros sale la variación sobre la que actúa la evolución. Los ordenadores, en
+
+cambio, se diseñaron para que casi no se equivoquen, y hay una teoría matemática entera
+dedicada a eso (Shannon, 1948). Y los ordenadores cuánticos, cuyas unidades de
+información son extremadamente frágiles, tienen en la lucha contra el error su problema
+central. En el fondo, es un mismo problema con tres temperamentos: la vida explota el
+error, la informática lo suprime y la computación cuántica lo combate. Siguiendo ese hilo,
+capítulos muy distintos empiezan a hablar entre sí.
+
+Hay, por último, un cuarto elemento que no es un hilo técnico sino social. Cuando el cuerpo
+de la información desaparece de la vista, desaparecen con él las preguntas sobre quién lo
+posee, quién lo mantiene, quién paga su coste y quién sufre sus errores. El Capítulo 4 se
+ocupa de las palabras con las que se nombra la tecnología, que contribuyen a esa
+desaparición, y el Capítulo 6 reúne las preguntas sociales y las herramientas con las que la
+sociología las aborda.
+
+
+
+## Qué hace aquí la imagen del círculo
+
+El libro lleva por título El Círculo de Silicio, y conviene explicar con franqueza qué significa.
+La imagen es la de un recorrido que parte de la vida, pasa por el código y las máquinas y
+vuelve a la vida, ahora como algo que podemos manipular. Es una imagen atractiva y, como
+todas las imágenes atractivas, peligrosa: puede hacer creer que la historia tenía un
+destino. No lo tenía. La evolución no busca nada, la tecnología no es la fase siguiente de la
+biología y no hay ninguna ley que lleve de las células a los cúbits.
+
+Lo que sí hay son conexiones reales. La biología prestó a la informática su idea de que la
+información se copia, se varía y se selecciona. La informática devolvió a la biología un
+vocabulario, el del código y el mensaje, y unas herramientas con las que hoy se lee y se
+edita el ADN. Y las dos comparten el problema del error. Usaremos la imagen del círculo
+como una linterna para iluminar esas conexiones, y en la conclusión se discutirán sus
+límites.
+
+
+
+## Qué intenta este libro (y qué no)
+
+Este libro intenta, ante todo, desmitificar. Quiere que alguien sin formación técnica pueda
+entender, en lo esencial, qué es un chip, qué es el software, por qué la inteligencia artificial
+necesita tanto hardware, por qué los ordenadores cuánticos necesitan tanto cuidado y
+qué significan todas estas cosas para la vida cotidiana. No pretende reemplazar a un
+manual de ingeniería, ni ser exhaustivo, ni predecir el futuro. Está escrito desde la
+curiosidad y no desde la especialidad, con una mirada que viene de las ciencias sociales y
+con el apoyo de una inteligencia artificial en la redacción, como se explica en la nota de
+autoría.
+
+Tampoco es un libro de entusiasmo ni de catástrofe. Hay mucho de asombroso en lo que
+se cuenta, pero también mucho ruido: la tecnología es uno de los terrenos donde más
+abundan las promesas infladas. Por eso el texto trata de separar tres cosas que a menudo
+se mezclan: lo que ya existe, lo que es posible pero incierto y lo que es solo marketing o
+fantasía.
+
+Si al terminar la lectura el teléfono sigue pareciendo igual de útil, pero un poco menos
+mágico y un poco más extraordinario, el libro habrá cumplido su propósito. Porque
+entender de dónde viene algo no le quita valor: lo devuelve a la escala humana, donde se
+puede discutir, cuestionar y decidir.
+
+
+
+## Cómo seguimos
+
+El primer capítulo vuelve al origen: la vida entendida como un sistema que copia
+información, el modo en que la ciencia aprendió a leerla y los primeros experimentos con
+los que hoy se la redirige. El segundo abre la "caja negra" de los ordenadores, de la nube a
+los chips, y el tercero se ocupa de la inteligencia artificial y de la concentración de
+recursos que exige. El cuarto se detiene en las palabras que usamos para hablar de todo
+esto, y el quinto explora la frontera cuántica, donde el error es el problema principal. El
+sexto reúne las preguntas sociales y las herramientas de la sociología para plantearlas, y la
+conclusión vuelve a la imagen del círculo para ponerla a prueba.
+
+
+## Referencias de la introducción
+
+
+Feynman, R. P. (1960). There's plenty of room at the bottom. Engineering and Science,
+23(5), 22-36.
+
+Landauer, R. (1991). Information is physical. Physics Today, 44(5), 23-29.
+
+Shannon, C. E. (1948). A mathematical theory of communication. Bell System Technical
+Journal, 27(3), 379-423 y 27(4), 623-656.
+
+
+Capítulo 1. La vida como información
+Antes de hablar de chips y de algoritmos conviene mirar el primer sistema que copió,
+guardó y transformó información: la vida. No es un rodeo. Aquí aparece por primera vez la
+idea que sostiene todo el libro, que la información necesita un cuerpo: la información
+genética no flota en ninguna parte, está escrita en una molécula concreta, y la leen y la
+copian máquinas moleculares concretas, con un coste de materia y energía. Y aquí
+aparece también el tercer hilo, el del error, de una forma que luego no volverá a repetirse:
+en la vida, el error no es solo un fallo, también es la materia prima de la que está hecha la
+evolución.

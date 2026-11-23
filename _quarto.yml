@@ -1,0 +1,39 @@
+project:
+  type: book
+  output-dir: docs
+
+book:
+  title: "El Círculo de Silicio"
+  subtitle: "De la vida como código a la computación cuántica: un viaje por lo que damos por inmaterial"
+  author: "Javier Echube Bestue"
+  date: "2026-11-23"
+  site-url: https://javierechube14.github.io/circulo-de-silicio/
+  repo-url: https://github.com/javierechube14/circulo-de-silicio
+  sharing: [linkedin]
+
+  sidebar:
+    tools:
+      - icon: file-earmark-pdf
+        text: "Descargar libro completo (PDF)"
+        href: El_Círculo_de_Silicio.pdf
+      - icon: github
+        text: "Repositorio en GitHub"
+        href: https://github.com/javierechube14/circulo-de-silicio
+
+  chapters:
+    - index.qmd
+    - cap1-vida.qmd
+    - cap2-inmaterialidad.qmd
+    - cap3-ia.qmd
+    - cap4-palabras.qmd
+    - cap5-cuantica.qmd
+    - cap6-sociedad.qmd
+    - conclusion.qmd
+
+format:
+  html:
+    theme: cosmo
+    toc: true
+    toc-depth: 2
+    number-sections: false
+

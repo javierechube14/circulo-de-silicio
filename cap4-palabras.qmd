@@ -1,0 +1,265 @@
+# Capítulo 4. Las palabras que ocultan
+Casi todo lo que se ha contado hasta aquí se ha contado con palabras que no son técnicas:
+nube, memoria, red, inteligencia, aprendizaje, código, algoritmo. Son palabras corrientes,
+tomadas de la geografía, de la psicología, de la biología o de la meteorología, y aplicadas a
+máquinas. Su efecto es doble. Por un lado, permiten que cualquiera pueda hablar de
+tecnologías complejas sin saber ingeniería. Por otro, orientan la atención hacia ciertas
+cosas y la apartan de otras. Este capítulo se detiene en ese segundo efecto, que es una
+cuestión sociológica antes que técnica: cómo el lenguaje contribuye a que una tecnología
+se vea como natural, inevitable o inmaterial.
+
+El lingüista George Lakoff y el filósofo Mark Johnson (1980) sostuvieron que las metáforas
+no son un adorno del lenguaje sino una de las formas con las que pensamos: entendemos
+una cosa en términos de otra, y esa elección destaca algunos rasgos y oculta otros.
+Aplicado a la tecnología, el argumento es sencillo. Cuando decimos que los datos están
+"en la nube", destacamos la ligereza y la ubicuidad, y ocultamos los edificios y los
+kilovatios. El capítulo recorre tres familias de palabras: las que hablan de lugares y objetos,
+las que hablan de mente y aprendizaje y las que hablan de código. Termina preguntando
+qué personas y qué costes quedan fuera de la vista cuando se dice que algo es
+automático, gratuito o abierto.
+
+
+
+## 4.1 Nube, memoria, red: metáforas que naturalizan
+
+La metáfora de la nube ya apareció en el Capítulo 2, y conviene añadir aquí lo que han
+señalado quienes la han estudiado. La investigadora Tung-Hui Hu (2015) sostiene que la
+nube es, a la vez, una infraestructura real y una fantasía sobre ella: una forma de imaginar
+la tecnología como algo sin lugar y sin cuerpo, heredera de ideas más antiguas sobre las
+redes y la virtualidad. El economista político Vincent Mosco (2014) la ha descrito como un
+mito contemporáneo, con la promesa de una tecnología que lo resuelve todo y que no
+cuesta nada. Ninguno de los dos niega que los servicios en la nube sean útiles. Lo que
+señalan es que la palabra hace trabajo ideológico: desplaza la mirada de la infraestructura
+al servicio.
+
+Otras palabras de la informática funcionan igual. Tomemos la memoria. Cuando John von
+Neumann describió en 1945 el diseño del ordenador EDVAC, usó un vocabulario tomado
+de la biología: hablaba de órganos y se apoyaba en la notación de neuronas ideales que
+habían propuesto poco antes Warren McCulloch y Walter Pitts (McCulloch y Pitts, 1943;
+von Neumann, 1945). Desde entonces decimos que los ordenadores tienen memoria, lo
+que sugiere que recuerdan. La teórica de los medios Wendy Chun (2008, 2011) ha
+mostrado por qué esa elección no es inocente. La memoria humana olvida, reconstruye y
+se transforma, mientras que la memoria de un ordenador es almacenamiento: marcas
+físicas que hay que mantener, refrescar y copiar para que no se pierdan. Como se vio en el
+
+Capítulo 2, la memoria de trabajo de un ordenador pierde su contenido si no se la refresca
+constantemente, y los soportes de almacenamiento se degradan en años o décadas.
+Hablar de memoria hace creer en un archivo permanente, cuando lo que existe es un
+esfuerzo continuo de conservación. Chun lo resume con una paradoja: los medios digitales
+son a la vez duraderos y efímeros.
+
+Las metáforas de la interfaz son un caso más. Los diseñadores del Xerox Star, a principios
+de los años ochenta, propusieron que la pantalla se pareciera a una mesa de oficina, con
+documentos, carpetas y una papelera, para que personas sin formación técnica pudieran
+usar un ordenador (Smith et al., 1982). Fue un éxito extraordinario, y sigue siendo la forma
+en la que casi todos interactuamos con una máquina. El teórico Alexander Galloway (2012)
+ha llamado la atención sobre lo que esa decisión implicó: una interfaz es, por diseño, un
+dispositivo que oculta lo que ocurre por debajo. Nadie necesita saber cómo funciona una
+carpeta, y por eso nadie lo sabe.
+
+Otro caso es el de lo inalámbrico. Un teléfono conectado por wifi o por una red móvil
+parece estar libre de cables, pero la señal viaja unos metros por el aire y el resto del
+camino por fibra óptica, torres, antenas y centros de intercambio, que son tan materiales
+como los de la telefonía fija. Los estudios sobre infraestructuras de la comunicación han
+insistido en que lo inalámbrico es, sobre todo, una forma de que los cables queden fuera
+de la vista (Parks y Starosielski, 2015).
+
+Conviene no sacar de todo esto una conclusión simplista. Estas metáforas no son errores
+que haya que corregir. Son lo que hace usable la tecnología, y sin ellas no habría
+informática de masas. El problema aparece cuando dejan de percibirse como metáforas.
+Los sociólogos Peter Berger y Thomas Luckmann (1966) llamaron cosificación al proceso
+por el que los productos de la acción humana se perciben como si fueran hechos de la
+naturaleza, independientes de quienes los crearon. Es lo que ocurre cuando alguien dice
+que "internet está en todas partes" o que "los datos viven en la nube": una elección de
+diseño y de lenguaje se vive como una propiedad del mundo. Esta es una de las ideas que
+se retomarán en el Capítulo 6.
+
+
+
+## 4.2 "Inteligencia" y "aprendizaje": cómo se nombra a las máquinas
+
+Las palabras más cargadas de la informática actual son las que atribuyen a las máquinas
+rasgos de la mente. Merece la pena mirar de dónde salieron.
+
+La expresión "inteligencia artificial" se acuñó en 1955, en la propuesta del seminario de
+Dartmouth que se mencionó en el Capítulo 3 (McCarthy et al., 1955). Según relató el
+propio John McCarthy años después, eligió esas palabras en parte para distinguir su
+campo del de la cibernética, asociada a la figura de Norbert Wiener (Crevier, 1993). Fue
+una decisión de nombre, pero también una decisión de marca, que ha tenido una larga
+
+vida: la etiqueta ha permitido durante setenta años presentar como un solo proyecto
+cosas muy distintas, desde los sistemas de reglas de los años ochenta hasta los grandes
+modelos de lenguaje de hoy.
+
+Lo mismo ocurre con el aprendizaje automático, expresión que popularizó en 1959 el
+ingeniero Arthur Samuel a propósito de un programa que jugaba a las damas y mejoraba
+con la experiencia (Samuel, 1959). Y con las redes neuronales, un nombre que viene del
+artículo de McCulloch y Pitts (1943) sobre un modelo lógico muy simplificado de la
+neurona. Las redes actuales, como se vio en el Capítulo 3, son estructuras matemáticas
+cuya relación con el cerebro es lejana. Llamarlas neuronales sugiere una semejanza que ni
+los propios investigadores defienden con rigor.
+
+El informático Drew McDermott (1976) describió un fenómeno que llamó "mnemónicos
+con deseo": los programadores dan a las partes de su programa nombres como "entiende"
+o "comprende" y, al cabo del tiempo, empiezan a creer que el programa hace de verdad lo
+que el nombre dice. La investigadora Melanie Mitchell (2021) ha recuperado la idea para
+analizar el campo actual. Es una advertencia útil: el vocabulario que se usa para describir
+un sistema influye en lo que se espera de él.
+
+El caso más famoso de ese efecto es anterior a los grandes modelos de lenguaje. En 1966,
+Joseph Weizenbaum, un investigador del MIT, programó ELIZA, un sistema muy sencillo
+que imitaba a un psicoterapeuta devolviendo al usuario sus propias frases en forma de
+pregunta (Weizenbaum, 1966). Para su sorpresa, mucha gente le atribuía una comprensión
+que el programa no tenía, y algunos pedían estar a solas con él. Weizenbaum quedó tan
+inquieto que dedicó su carrera a advertir contra esa tendencia (Weizenbaum, 1976). Hoy
+se habla del efecto ELIZA para referirse a la facilidad con la que atribuimos mente a lo que
+nos responde con palabras, y el investigador Simone Natale (2021) ha analizado cómo la
+historia de la inteligencia artificial está atravesada por una forma de engaño banal, que no
+exige mala fe de nadie: basta con que la máquina use el lenguaje, que es lo que hace que
+las personas la traten como a alguien.
+
+Hay un ejemplo reciente de cómo un nombre puede orientar la interpretación. Cuando un
+gran modelo de lenguaje afirma algo falso con aplomo, se dice que "alucina". La palabra
+viene de la psicología y sugiere que el sistema percibe algo que no está ahí. Pero el modelo
+no percibe nada: genera el texto más probable según su entrenamiento, y a veces ese
+texto es falso. Algunos investigadores han propuesto otras palabras. Hicks et al. (2024)
+han defendido, con un argumento filosófico, que lo que producen estos sistemas se
+parece más a lo que el filósofo Harry Frankfurt llamó charlatanería, que es hablar sin
+ninguna preocupación por si lo que se dice es verdad, y han discutido que la palabra
+"alucinación" sea la adecuada. La cuestión de fondo tiene que ver con la distinción entre
+forma y significado que plantearon Emily Bender y Alexander Koller (2020): un sistema
+entrenado solo con texto aprende a producir formas lingüísticas, y no está claro que de ahí
+pueda salir comprensión en el sentido en que los humanos la usamos.
+
+Este libro no pretende resolver ese debate. Pero sí propone un ejercicio práctico, que
+sirve para leer con más cuidado cualquier noticia sobre inteligencia artificial: sustituir el
+verbo mental por una descripción mecánica y ver qué queda. "El sistema entiende la
+pregunta" se convierte en "el sistema transforma el texto en números y calcula la
+respuesta más probable". "La inteligencia artificial aprende" se convierte en "se ajustan
+millones de números para reducir un error". Al hacer el ejercicio, no desaparece lo
+asombroso, pero sí cambia la atención: de una entidad que piensa, a un proceso que se
+construye con datos, con hardware y con decisiones humanas.
+
+Hay una consecuencia sociológica de esa sustitución. Si el sistema es un agente, las
+decisiones parecen suyas. La antropóloga Madeleine Clare Elish (2019) describió lo que
+llamó zonas de deformación moral: en los sistemas automatizados, cuando algo sale mal, la
+responsabilidad tiende a recaer sobre la persona que está más cerca de la máquina,
+aunque tenga muy poco control sobre ella. Y la investigadora Kate Crawford (2021) ha
+resumido el problema con una tesis provocadora: la inteligencia artificial no es ni artificial
+ni inteligente, porque está hecha de recursos naturales, de trabajo humano y de
+infraestructuras muy concretas, y porque lo que hace no se parece a la inteligencia de las
+personas. Esa tesis recoge, en buena medida, el espíritu de este libro, y anticipa la sección
+4.4.
+
+
+
+## 4.3 "Código" y "algoritmo": un vocabulario que viaja entre la biología y la
+
+informática
+La palabra algoritmo viene del nombre del matemático persa al-Juarismi, del siglo IX,
+cuyos textos sobre aritmética, traducidos al latín, difundieron en Europa el cálculo con el
+sistema decimal (Knuth, 1997). Durante siglos significó un procedimiento de cálculo paso a
+paso, como el que se enseña en la escuela para dividir. En informática conserva ese
+sentido técnico preciso: una secuencia finita de instrucciones sin ambigüedad que
+resuelve un problema.
+
+En el lenguaje público, sin embargo, la palabra ha adquirido otro uso. Decimos que "el
+algoritmo decide" qué vídeo veremos, qué crédito nos concederán o qué candidato pasará
+a la siguiente fase de una selección. El investigador Tarleton Gillespie (2014) ha analizado
+ese desplazamiento: algoritmo se ha convertido en un nombre para sistemas
+sociotécnicos enteros, con sus datos, sus objetivos y las decisiones de quienes los
+diseñan, y al llamarlos con una sola palabra técnica se les atribuye una neutralidad y una
+objetividad que no tienen. El antropólogo Nick Seaver (2017) propone mirar los algoritmos
+como cultura y no como recetas aisladas: sistemas que se construyen en equipos, con
+métricas y con objetivos comerciales, y que cambian continuamente porque alguien los
+retoca. La investigadora Taina Bucher (2018) ha estudiado cómo se percibe y se vive esa
+influencia en la vida cotidiana. En el caso del aprendizaje automático, además, la palabra es
+
+doblemente resbaladiza: el algoritmo es el procedimiento de entrenamiento, pero lo que
+se usa después, el modelo, no es un algoritmo que alguien haya escrito, sino el resultado
+de aplicar ese procedimiento a unos datos, como se vio en el Capítulo 3.
+
+La palabra código tiene una historia todavía más enrevesada, que es la del viaje de ida y
+vuelta entre la biología y la informática que ya se vio en el Capítulo 1. Schrödinger habló en
+1944 de una escritura cifrada, y la biología molecular de los años cincuenta y sesenta
+adoptó el vocabulario de la información, como ha mostrado Lily Kay (2000). En 1961,
+François Jacob y Jacques Monod, por un lado, y el biólogo Ernst Mayr, por otro,
+empezaron a hablar del genoma como un programa (Jacob y Monod, 1961; Mayr, 1961). Esa
+imagen volvió a la informática, y a la sociedad, cargada de autoridad científica: si la vida es
+un programa, entonces se puede programar. Mientras tanto, el jurista Lawrence Lessig
+(1999) proponía, desde otro ángulo, que el código informático funciona como una forma de
+regulación: lo que el software permite o impide es, en la práctica, una norma de conducta
+que casi nadie ve. El código, en sentido informático, es también ley.
+
+Hoy la biología sintética usa un vocabulario de ingeniería, con piezas, circuitos y chasis
+(Endy, 2005), y el círculo de la metáfora se ha vuelto, en un caso concreto, literal. En 2012,
+el equipo del genetista George Church, en Harvard, codificó en moléculas de ADN un libro
+de más de 53.000 palabras, once imágenes y un programa informático, en total 5,27
+megabits, y lo leyó después mediante secuenciación (Church et al., 2012). Al año
+siguiente, un equipo del Instituto Europeo de Bioinformática hizo lo mismo con otros tipos
+de archivos usando un esquema que añadía redundancia para poder corregir errores
+(Goldman et al., 2013). Hay que fijarse en lo que ocurre: la información digital, que nació de
+máquinas de interruptores, se guarda de nuevo en la molécula de la herencia, y para que
+funcione hay que recurrir a las mismas estrategias de redundancia que se describieron en
+los capítulos 1 y 2. Los autores señalaron que, aunque la densidad de almacenamiento es
+extraordinaria, escribir y leer ADN era entonces demasiado lento y costoso para un uso
+corriente. Hasta donde alcanza la literatura consultada, esa limitación sigue siendo, en lo
+esencial, la que frena la técnica: es una promesa de archivo a largo plazo, no un sustituto
+de los discos.
+
+Conviene no sacar de ello una conclusión mayor de la que corresponde. Que se pueda
+guardar información digital en ADN no demuestra que una célula sea un ordenador, igual
+que escribir en papel no demuestra que el papel sea un lenguaje. Como recordaba Keller
+(2000), la metáfora del programa simplifica una realidad en la que el entorno y el
+desarrollo cuentan tanto como los genes. Lo que el ejemplo sí muestra es cómo una
+metáfora, tras sesenta años de uso, acaba produciendo objetos que la hacen literal, y
+cómo eso refuerza la impresión de que era verdadera desde el principio. Es un buen
+ejemplo de la ambigüedad de las imágenes: son herramientas fértiles y, a la vez, trampas.
+
+## 4.4 Lo que una palabra esconde: quién trabaja y quién paga
+
+Hay otra familia de palabras cuyo efecto es borrar a las personas: automático, autónomo,
+inteligente. Cuando un sistema se presenta como automático, se sugiere que funciona sin
+intervención humana. La realidad suele ser distinta. La periodista Astra Taylor (2018)
+acuñó para esos casos el término fauxtomation, automatización de fachada: sistemas que
+se anuncian como automáticos y en los que, en realidad, hay personas que hacen parte del
+trabajo fuera de foco, y que nos acostumbran a no ver ese trabajo. La antropóloga Mary
+Gray y el informático Siddharth Suri (2019) hablaron de trabajo fantasma: tareas que
+personas reales hacen por encargo, a través de plataformas, y que hacen funcionar
+aplicaciones que parecen automáticas, como moderar contenido, transcribir audios o
+etiquetar imágenes.
+
+La historia tiene un precedente que el propio nombre de una plataforma recuerda. En
+1770, el inventor Wolfgang von Kempelen presentó en la corte de Viena un autómata que
+jugaba al ajedrez, conocido como el Turco, que asombró a Europa durante décadas. Dentro
+de la mesa, oculto, había un jugador humano. En 2005, Amazon lanzó una plataforma para
+contratar trabajo humano por tareas sueltas a la que llamó Mechanical Turk, y la presentó
+con el eslogan de una "inteligencia artificial artificial" (Irani, 2015). Fue una broma que
+decía la verdad: la plataforma era, literalmente, una manera de esconder personas dentro
+de una máquina. Fue, además, una de las vías con las que se construyó ImageNet, la base
+de datos que, como se vio en el capítulo anterior, hizo posible el aprendizaje profundo
+(Deng et al., 2009).
+
+El caso más documentado es el del trabajo de moderación y etiquetado. Para que un
+asistente conversacional no reproduzca contenidos violentos o abusivos, hay que
+enseñarle cuáles lo son, y eso requiere que personas lean y clasifiquen ejemplos reales.
+En 2023, una investigación de la revista TIME reveló que OpenAI había contratado, a
+través de la empresa Sama, a trabajadores en Kenia para etiquetar textos que describían
+abusos sexuales a menores, violencia y suicidio. Según esa investigación, cobraban entre
+1,32 y 2 dólares por hora, una vez descontados los impuestos, según su antigüedad y
+rendimiento (Perrigo, 2023a). Sama replicó que sus trabajadores cobraban entre 1,46 y
+3,74 dólares por hora tras impuestos, y OpenAI afirmó que Sama era responsable de los
+pagos y de los servicios de salud mental. Algunos de los trabajadores contaron que el
+trabajo les provocó secuelas psicológicas. Ese mismo año, trabajadores de moderación de
+varias empresas africanas fundaron un sindicato en Nairobi (Perrigo, 2023b). Según
+informaciones de prensa de 2026, Sama perdió su contrato con Meta en abril y despidió a
+más de mil trabajadores en Kenia, y a comienzos de noviembre se informó de su
+liquidación, con los litigios como motivo; son datos muy recientes que conviene contrastar
+cuando se lea este libro. El trabajo de moderación de contenido, que sostiene el
+
+funcionamiento de las redes sociales, ha sido estudiado en profundidad por la
+investigadora Sarah Roberts (2019), que lo describe como una industria deliberadamente
+invisible.
+
+Otras palabras esconden quién paga. Gratuito es la más antigua: los servicios que no
+cuestan dinero se pagan con atención y con datos, un argumento que se desarrollará en el
